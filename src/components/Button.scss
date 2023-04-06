@@ -1,0 +1,22 @@
+.btn-wrapper{
+    flex: 1;
+    background: #e0e1e6;
+    outline: 1px solid #888888;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #888888;
+    height: 80px;
+    font-weight: 500;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.operator{
+    color: #fff;
+    background: #fe9241;
+}
+
+.btn-wrapper:hover{
+    opacity: 0.8;
+}
