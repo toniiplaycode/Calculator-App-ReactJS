@@ -5,10 +5,11 @@ const isOperator = (value) => {
 }
 
 export const Button = (props) => {
+    console.log(isNaN(123))
     return(
         <div 
             className={`btn-wrapper ${isOperator(props.children) ? null : 'operator'}`}
-            onClick={() => props.handleClick(props.children, 123, 124)}
+            onClick={() => props.handleClick(props.children)}
         >
             {props.children}
         </div>
